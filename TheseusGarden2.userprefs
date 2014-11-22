@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/lightUpOnMouseOver.cs">
+    <Files>
+      <File FileName="Assets/scripts/lightUpOnMouseOver.cs" Line="23" Column="2" />
+      <File FileName="Assets/scripts/grabandDrop.cs" Line="68" Column="33" />
+      <File FileName="Assets/scripts/generatePlants.cs" Line="10" Column="80" />
+      <File FileName="../../../../../../../Downloads/buildingworlds_fall2014-master 4/week09/Assets/scripts/GardenerMove.cs" Line="1" Column="1" />
+      <File FileName="../screenShakeDemo/Assets/scripts/sineBounce.cs" Line="1" Column="1" />
+      <File FileName="../popova/Assets/scripts/mouseOverLight.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/objectsTouching.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/destroyPlantOverPedestal.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/changeLandscape.cs" Line="58" Column="22" />
+      <File FileName="../../Thesis/Real_and_imagined_landscapes_V1/Assets/scripts/skyChange.cs" Line="25" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
