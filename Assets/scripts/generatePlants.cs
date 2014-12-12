@@ -28,20 +28,20 @@ public class generatePlants : MonoBehaviour {
 		float randIncX = Random.Range (plantingRange * -1f, plantingRange);
 		float randIncZ = Random.Range (plantingRange * -1f, plantingRange);
 		
-		while (totalObjects < 175) {
-			float pickOne = Random.Range (0f, 20f);
-			if (pickOne < 4f){
-				Instantiate (myPlant1, new Vector3 (randIncX, 1F, randIncZ), Quaternion.identity);
+		while (totalObjects < 60) {
+			float pickOne = Random.Range (0f, 10f);
+			if (pickOne < 2f){
+				Instantiate (myPlant1, new Vector3 (randIncX, 0F, randIncZ), Quaternion.Euler(0, Random.Range(0,360),0));
 
 			}
-			else if (pickOne < 8f) {
-				Instantiate (myPlant2, new Vector3 (randIncX, 1F, randIncZ), Quaternion.identity);
+			else if (pickOne < 4f) {
+				Instantiate (myPlant2, new Vector3 (randIncX, 0F, randIncZ), Quaternion.Euler(0, Random.Range(0,360),0));
 			}
-			else if (pickOne < 10f){
-				Instantiate (myPlant3, new Vector3 (randIncX, 1F, randIncZ), Quaternion.identity);
+			else if (pickOne < 8f){
+				Instantiate (myPlant3, new Vector3 (randIncX, 0F, randIncZ), Quaternion.Euler(0, Random.Range(0,360),0));
 			}
 			else{
-				Instantiate (myPlant4, new Vector3 (randIncX, 1F, randIncZ), Quaternion.identity);
+				Instantiate (myPlant4, new Vector3 (randIncX, 0F, randIncZ), Quaternion.Euler(0, Random.Range(0,360),0));
 			}
 		
 			counter++;

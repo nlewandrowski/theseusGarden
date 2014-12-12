@@ -8,6 +8,11 @@ public class grabandDrop : MonoBehaviour {
 	public float myRange;
 	public float carryDist;
 
+	void Start(){
+		//set to false if you do not want the curser to appear
+		Screen.showCursor = true;
+		}
+
 	//check if the object is grabable
 	bool CanGrab(GameObject candidate){
 		return candidate.GetComponent<Rigidbody> () != null;
@@ -26,6 +31,9 @@ public class grabandDrop : MonoBehaviour {
 				} else {
 			return null;
 				}
+
+		Debug.DrawRay (position, target, Color.red);
+
 		} //end gameObject
 
 	void TryGrabObject(GameObject grabObject){
